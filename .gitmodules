@@ -1,0 +1,3 @@
+[submodule "src/trevor"]
+	path = src/trevor
+	url = https://github.com/USF-COMIT/trevor.git
