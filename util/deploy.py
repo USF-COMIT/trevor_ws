@@ -26,7 +26,7 @@ class Deployer():
         ssh = paramiko.SSHClient()
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh.connect(host, username=username, password="bathyopossum")
-        ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command("cd trevor_ws; colcon build")
+        ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command("source /opt/ros/foxy/setup.bash; cd trevor_ws; colcon build")
         cmd_output = ssh_stdout.read()
         print('log printing: ', cmd_output)
         return cmd_output.decode("utf-8")
