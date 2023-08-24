@@ -1,3 +1,6 @@
 [submodule "src/trevor"]
 	path = src/trevor
 	url = https://github.com/USF-COMIT/trevor.git
+[submodule "src/project11_msgs"]
+	path = src/project11_msgs
+	url = https://github.com/USF-COMIT/project11_msgs
