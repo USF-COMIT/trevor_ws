@@ -4,3 +4,6 @@
 [submodule "src/project11_msgs"]
 	path = src/project11_msgs
 	url = https://github.com/USF-COMIT/project11_msgs
+[submodule "src/ntrip_client"]
+	path = src/ntrip_client
+	url = https://github.com/LORD-MicroStrain/ntrip_client
