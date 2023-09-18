@@ -6,3 +6,6 @@
 	url = https://github.com/LORD-MicroStrain/ntrip_client
 [submodule "src/microstrain_inertial"]
 	url = https://github.com/LORD-MicroStrain/microstrain_inertial
+[submodule "src/project11_msgs"]
+	path = src/project11_msgs
+	url = https://github.com/USF-COMIT/project11_msgs
